@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,6 +20,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
-Route::get('/data', [HomeController::class, 'show'])->name('show');
+// Route::get('/show', [HomeController::class, 'show'])->name('show');
 
 Route::post('/import_data', [HomeController::class,'store'])->name('store');

@@ -32,7 +32,7 @@
                     <ul class="navbar-nav me-auto">
                         @auth
                         <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('show') }}">{{ __('Home') }}</a>
+                                    <a class="nav-link" href="{{ route('home') }}">{{ __('Products') }}</a>
                                 </li>
                         @endauth
                     </ul>
