@@ -30,4 +30,9 @@ class HomeController extends Controller
     {
         return view('show');
     }
+
+    public function store()
+    {
+        return view('show');
+    }
 }

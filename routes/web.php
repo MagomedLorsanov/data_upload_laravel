@@ -19,5 +19,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/data', [App\Http\Controllers\HomeController::class, 'show'])->name('show');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/data', [HomeController::class, 'show'])->name('show');
+
+Route::post('/import_data', [HomeController::class,'store'])->name('store');
