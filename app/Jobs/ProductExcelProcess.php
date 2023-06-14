@@ -2,26 +2,26 @@
 
 namespace App\Jobs;
 
+use App\Models\Product;
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldBeUnique;
+use Illuminate\Queue\SerializesModels;
+use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
-use Illuminate\Queue\InteractsWithQueue;
-use Illuminate\Queue\SerializesModels;
+use Illuminate\Contracts\Queue\ShouldBeUnique;
 
 class ProductExcelProcess implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
-
-    public $data;
-    public $header;
     /**
      * Create a new job instance.
      */
-    public function __construct($data, $header)
+
+    public $chunk;
+
+    public function __construct($chunk)
     {
-        $this->data = $data;
-        $this->header = $header;
+        $this->chunk = $chunk;
     }
 
     /**
@@ -29,9 +29,8 @@ class ProductExcelProcess implements ShouldQueue
      */
     public function handle(): void
     {
-        foreach ($this->data as $rows) {
-            $excel_data = array_combine($this->header, $rows);
-            Product::create($excel_data);
-        }
+        
+        Product::insert($this->chunk);
+        
     }
 }

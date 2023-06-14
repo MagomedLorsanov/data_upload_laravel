@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Product;
 use Illuminate\Http\Request;
+use App\Jobs\ProductExcelProcess;
 use Rap2hpoutre\FastExcel\FastExcel;
 
 class HomeController extends Controller
@@ -25,37 +26,33 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $products = Product::paginate(1);
+        $products = Product::paginate(15);
         return view('home', ['products' => $products]);
     }
 
-    public function show()
-    {
-        $products = Product::all();
-        return view('show', ['products' => $products]);
-    }
+    // public function show()
+    // {
+    //     $products = Product::all();
+    //     return view('show', ['products' => $products]);
+    // }
 
     public function store(Request $request)
     {
+        // $products = [];
         $request->validate([
             'excel_file' => 'required|mimes:xlsx'
         ]);
-
-        $products = $request->file('excel_file');
-        dd($products);
-        $chunks = array_chunk($products, 1000);
-        $header = [];
         
-        foreach ($chunks as $key => $chunk) {
-            $data = $chunk;
-            if($key == 0) {
-                $header = $data[0];
-                unset($data[0]);
-            }
+        $products = (new FastExcel)->import($request->file('excel_file'), function ($row) {
+            return $row; 
+        });
+        
+
+        $chunks = ($products->chunk(1000))->toArray();
+        foreach ($chunks as $chunk){
+            ProductExcelProcess::dispatch($chunk);
         }
-
-       ProductExcelProcess::dispatch($data,$header);
-
-        return redirect('home')->with('success','Data imported successfully');
+        
+        return redirect('home')->with('success', 'Data imported successfully');
     }
 }
