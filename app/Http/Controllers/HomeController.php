@@ -32,7 +32,7 @@ class HomeController extends Controller
 
     // public function show()
     // {
-    //     $products = Product::all();
+    //     $products = Product::paginate(15);
     //     return view('show', ['products' => $products]);
     // }
 
@@ -42,17 +42,16 @@ class HomeController extends Controller
         $request->validate([
             'excel_file' => 'required|mimes:xlsx'
         ]);
-        
+
         $products = (new FastExcel)->import($request->file('excel_file'), function ($row) {
-            return $row; 
+            return $row;
         });
-        
+
 
         $chunks = ($products->chunk(1000))->toArray();
-        foreach ($chunks as $chunk){
+        foreach ($chunks as $chunk) {
             ProductExcelProcess::dispatch($chunk);
         }
-        
         return redirect('home')->with('success', 'Data imported successfully');
     }
 }

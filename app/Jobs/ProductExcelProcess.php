@@ -29,8 +29,6 @@ class ProductExcelProcess implements ShouldQueue
      */
     public function handle(): void
     {
-        
         Product::insert($this->chunk);
-        
     }
 }
