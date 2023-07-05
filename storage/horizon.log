@@ -1,0 +1,910 @@
+Horizon started successfully.
+  2023-07-03 15:10:26 App\Jobs\ProductExcelProcess ................... RUNNING
+  2023-07-03 15:10:26 App\Jobs\ProductExcelProcess ............. 138.82ms DONE
+  2023-07-03 15:10:26 App\Jobs\ProductExcelProcess ................... RUNNING
+  2023-07-03 15:10:26 App\Jobs\ProductExcelProcess .............. 90.29ms DONE
+  2023-07-03 15:10:26 App\Jobs\ProductExcelProcess ................... RUNNING
+  2023-07-03 15:10:27 App\Jobs\ProductExcelProcess .............. 84.36ms DONE
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+
+
+   Predis\Connection\ConnectionException 
+
+  Connection refused [tcp://127.0.0.1:6379]
+
+  at /home/mosalahdev/Desktop/data_upload_laravel/vendor/predis/predis/src/Connection/AbstractConnection.php:131
+    127▕      */
+    128▕     protected function onConnectionError($message, $code = 0)
+    129▕     {
+    130▕         CommunicationException::handle(
+  ➜ 131▕             new ConnectionException($this, "$message [{$this->getParameters()}]", $code)
+    132▕         );
+    133▕     }
+    134▕ 
+    135▕     /**
+
+      [2m+31 vendor frames [22m
+
+  32  /home/mosalahdev/Desktop/data_upload_laravel/artisan:37
+      Illuminate\Foundation\Console\Kernel::handle()
+

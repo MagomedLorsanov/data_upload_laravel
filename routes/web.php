@@ -22,3 +22,4 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 // Route::get('/show', [HomeController::class, 'show'])->name('show');
 
 Route::post('/import_data', [HomeController::class,'store'])->name('store');
+
